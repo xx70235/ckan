@@ -174,7 +174,7 @@ msgstr "用户{0}未被授权修改资源{1}"
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:19
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:21
 msgid "CKAN Data API"
-msgstr "CKAN 数据 API"
+msgstr "EESDC数据 API"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:23
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:25
@@ -200,7 +200,7 @@ msgid ""
 "The Data API can be accessed via the following actions of the CKAN action "
 "API."
 msgstr ""
-"The Data API can be accessed via the following actions of the CKAN action "
+"The Data API can be accessed via the following actions of the EESDC action "
 "API."
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:42
@@ -466,7 +466,7 @@ msgstr "0数据集"
 
 #: ckanext/example_theme_docs/v12_extra_public_dir/templates/home/snippets/promoted.html:4
 msgid "CKAN's data previewing tool has many powerful features"
-msgstr "CKAN的数据预览工具有很多实用功能"
+msgstr "EESDC的数据预览工具有很多实用功能"
 
 #: ckan/templates/group/followers.html:3 ckan/templates/group/followers.html:6
 #: ckan/templates/group/snippets/info.html:34
@@ -1058,11 +1058,11 @@ msgstr "比较之前选择两个修改版本"
 
 #: ckan/controllers/group.py:798
 msgid "CKAN Group Revision History"
-msgstr "CKAN 群组修该历史"
+msgstr "EESDC 群组修该历史"
 
 #: ckan/controllers/group.py:802
 msgid "Recent changes to CKAN Group: "
-msgstr "CKAN 群组最新变更"
+msgstr "EESDC 群组最新变更"
 
 #: ckan/controllers/group.py:823 ckan/controllers/package.py:486
 msgid "Log message: "
@@ -1149,11 +1149,11 @@ msgstr "没有权限读取组件 %s"
 
 #: ckan/controllers/package.py:462
 msgid "CKAN Dataset Revision History"
-msgstr "CKAN 数据集变更历史"
+msgstr "EESDC 数据集变更历史"
 
 #: ckan/controllers/package.py:465
 msgid "Recent changes to CKAN Dataset: "
-msgstr "CKAN 数据集最新变更:"
+msgstr "EESDC 数据集最新变更:"
 
 #: ckan/controllers/package.py:521 ckan/views/dataset.py:537
 msgid "Unauthorized to create a package"
@@ -2519,7 +2519,7 @@ msgstr "关于{0}"
 
 #: ckan/templates/footer.html:15
 msgid "CKAN API"
-msgstr "CKAN API"
+msgstr "EESDC API"
 
 #: ckan/templates/footer.html:16
 msgid "CKAN Association"
@@ -2528,10 +2528,10 @@ msgstr ""
 #: ckan/templates/footer.html:24
 msgid ""
 "<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
-"href=\"http://ckan.org\">CKAN</a>"
+"href=\"http://ckan.org\">EESDC</a>"
 msgstr ""
 "<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
-"href=\"http://ckan.org\">CKAN</a>"
+"href=\"http://ckan.org\">EESDC</a>"
 
 #: ckan/templates/header.html:9
 msgid "Sysadmin settings"
@@ -2659,7 +2659,7 @@ msgstr "更新配置"
 
 #: ckan/templates/admin/config.html:45
 msgid "CKAN config options"
-msgstr "CKAN 配置选项"
+msgstr "EESDC配置选项"
 
 #: ckan/templates/admin/config.html:52
 #, python-format
@@ -2703,7 +2703,7 @@ msgstr "确认重设"
 
 #: ckan/templates/admin/index.html:15
 msgid "Administer CKAN"
-msgstr "管理 CKAN"
+msgstr "管理 EESDC"
 
 #: ckan/templates/admin/index.html:20
 #, python-format
@@ -2712,7 +2712,7 @@ msgid ""
 " with care!</p> <p>For guidance on using sysadmin features, see the CKAN  <a"
 " href=\"%(docs_url)s\" target=\"_blank\">sysadmin guide</a></p>"
 msgstr ""
-"<p>作为系统管理员，您对该CKAN实例具有完全控制权。请谨慎操作！</p>\n"
+"<p>作为系统管理员，您对该EESDC实例具有完全控制权。请谨慎操作！</p>\n"
 "<p>该链接可以引导您使用系统管理员特性 <a href=\"%(docs_url)s\" target=\"_blank\">系统管理员引导</a></p>"
 
 #: ckan/templates/admin/trash.html:12
@@ -3089,7 +3089,7 @@ msgid ""
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets."
 msgstr ""
-"你可以使用 CKAN 提供的群组功能来创建和管理数据集的集合。这可以用来整理同一个项目或者团队的数据集，或者仅是方便其他人搜索到你发布的数据集。"
+"你可以使用 EESDC 提供的群组功能来创建和管理数据集的集合。这可以用来整理同一个项目或者团队的数据集，或者仅是方便其他人搜索到你发布的数据集。"
 
 #: ckan/templates/group/snippets/info.html:16
 #: ckan/templates/organization/bulk_process.html:82
@@ -3151,13 +3151,13 @@ msgstr ""
 
 #: ckan/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN"
-msgstr "欢迎來到CKAN"
+msgstr "欢迎來到EESDC"
 
 #: ckan/templates/home/snippets/promoted.html:10
 msgid ""
 "This is a nice introductory paragraph about CKAN or the site in general. We "
 "don't have any copy to go here yet but soon we will"
-msgstr "这是一个关于CKAN或网站的简单介绍资讯。目前沒有文案，但很快就会有"
+msgstr "这是一个关于EESDC网站的简单介绍资讯。"
 
 #: ckan/templates/home/snippets/promoted.html:19
 msgid "This is a featured section"
@@ -3390,7 +3390,7 @@ msgid ""
 "CKAN Organizations are used to create, manage and publish collections of "
 "datasets. Users can have different roles within an Organization, depending "
 "on their level of authorisation to create, edit and publish."
-msgstr "CKAN 组织使用来创建，管理，发布数据集集合的。用户可以在组织中扮演不同的角色，并被赋予不同级别的权限来创建，编辑和发布数据。"
+msgstr "EESDC组织使用来创建，管理，发布数据集集合的。用户可以在组织中扮演不同的角色，并被赋予不同级别的权限来创建，编辑和发布数据。"
 
 #: ckan/templates/organization/snippets/organization_form.html:10
 msgid "My Organization"
@@ -3430,7 +3430,7 @@ msgid ""
 "with a description and other information, at a fixed URL. Datasets are what "
 "users see when searching for data."
 msgstr ""
-"一个 CKAN 数据集是指数据资源的集合，并包含其相应的简介和相关信息。它拥有一个固定的 URL 地址。当用户搜索数据时，他们得到的结果均以数据集呈现。"
+"一个数据集是指数据资源的集合，并包含其相应的简介和相关信息。它拥有一个固定的 URL 地址。当用户搜索数据时，他们得到的结果均以数据集呈现。"
 
 #: ckan/templates/package/changes.html:9
 #: ckan/templates/package/changes.html:17
@@ -3909,7 +3909,7 @@ msgstr "1.0"
 #: ckan/templates/package/snippets/package_metadata_fields.html:20
 #: ckan/templates/user/new_user_form.html:6
 msgid "Joe Bloggs"
-msgstr "Joe Bloggs"
+msgstr "Liu Di"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:16
 msgid "Author Email"
@@ -3919,7 +3919,7 @@ msgstr "作者邮箱"
 #: ckan/templates/package/snippets/package_metadata_fields.html:22
 #: ckan/templates/user/new_user_form.html:7
 msgid "joe@example.com"
-msgstr "joe@example.com"
+msgstr "liudi@example.com"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:22
 msgid "Maintainer Email"
@@ -4705,7 +4705,7 @@ msgstr "账户信息"
 #: ckan/templates/user/edit.html:19
 msgid ""
 "Your profile lets other CKAN users know about who you are and what you do."
-msgstr "你的个人档案可以让其他 CKAN 用户了解你是谁以及你是做什么的。"
+msgstr "你的个人档案可以让其他EESDC用户了解你是谁以及你是做什么的。"
 
 #: ckan/templates/user/edit_user_form.html:7
 msgid "Change details"
@@ -4717,11 +4717,11 @@ msgstr "全名"
 
 #: ckan/templates/user/edit_user_form.html:10
 msgid "eg. Joe Bloggs"
-msgstr "例如：Joe Bloggs"
+msgstr "例如：Liu Di"
 
 #: ckan/templates/user/edit_user_form.html:12
 msgid "eg. joe@example.com"
-msgstr "例如：joe@example.com"
+msgstr "例如：liudi@example.com"
 
 #: ckan/templates/user/edit_user_form.html:14
 msgid "A little information about yourself"
