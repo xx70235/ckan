@@ -3644,9 +3644,13 @@ if(typeof VMM != 'undefined' && typeof VMM.ExternalAPI == 'undefined') {
 			
 			map_subdomains: ["", "a.", "b.", "c.", "d."],
 			
+			// map_attribution: {
+			// 	"stamen": 			"Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>. Data by <a href='http://openstreetmap.org'>OpenStreetMap</a>, under <a href='http://creativecommons.org/licenses/by-sa/3.0'>CC BY SA</a>.",
+			// 	"apple": 			"Map data &copy; 2012  Apple, Imagery &copy; 2012 Apple"
+			// },
 			map_attribution: {
-				"stamen": 			"Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>. Data by <a href='http://openstreetmap.org'>OpenStreetMap</a>, under <a href='http://creativecommons.org/licenses/by-sa/3.0'>CC BY SA</a>.",
-				"apple": 			"Map data &copy; 2012  Apple, Imagery &copy; 2012 Apple"
+				"stamen": 			"",
+				"apple": 			""
 			},
 									
 			map_providers: {
