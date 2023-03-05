@@ -9796,7 +9796,8 @@ h4 small {
 }
 @media (min-width: 992px) {
   .homepage [role=main] {
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    margin-bottom:20px;
   }
   .homepage.layout-1 .row1 .col2 {
     position: absolute;
