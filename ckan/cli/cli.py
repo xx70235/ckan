@@ -4,9 +4,10 @@ import logging
 from collections import defaultdict
 from pkg_resources import iter_entry_points
 
+import sys
 import six
 import click
-import sys
+
 
 import ckan.plugins as p
 import ckan.cli as ckan_cli
